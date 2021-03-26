@@ -51,6 +51,7 @@ header {
 .nav-list {
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .nav-item {
@@ -722,6 +723,23 @@ header {
 
     .container {
         width: 700px;
+    }
+
+    header{
+        background-image: none;
+        background-color: #D7E0E4;
+        height: 450px;
+    }
+
+    .header .container{
+
+    }
+
+    .header-info{
+        margin: 0 auto;
+        padding: 50px 0;
+        width: 80%;
+        text-align: center;
     }
 
     .header-title,
