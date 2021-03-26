@@ -110,6 +110,11 @@ header {
     transform: translate(-105%, 15%);
 }
 
+.form-link:hover{
+    background-color: rgb(192, 189, 189);
+    color: red;
+}
+
 .form-icon {
     position: absolute;
     left: 10px;
@@ -203,6 +208,11 @@ header {
     font-size: 21px;
 }
 
+.main-info-link:hover{
+    background-color: white;
+    color: red;
+}
+
 
 .landing-page .container {
     display: flex;
@@ -231,6 +241,11 @@ header {
     color: white;
     padding: 15px 40px;
     border-radius: 5px;
+}
+
+.landing-page-info-link:hover{
+    color: red;
+    background-color: rgb(202, 199, 199);
 }
 
 .landing-page-info-img {
@@ -311,6 +326,11 @@ header {
     color: white;
     padding: 15px 40px;
     border-radius: 5px;
+}
+
+.benefits-page-info-link:hover{
+    background-color: rgb(197, 194, 194);
+    color: red;
 }
 
 .benefits-page-info-img {
@@ -423,6 +443,11 @@ header {
     text-align: center;
     font-size: 21px;
     font-weight: bolder;
+}
+
+.get-started-link:hover{
+    color: red;
+    background-color: white;
 }
 
 .footer {
@@ -960,7 +985,7 @@ header {
 @media(max-width:420px){
     .container-fluid{
         width: 300px;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .container{
